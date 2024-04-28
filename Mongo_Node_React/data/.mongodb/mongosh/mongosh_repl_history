@@ -1,0 +1,40 @@
+db.users.find()
+show collections
+db.docker-db.find()
+use docker-db
+show dbs
+showdbs
+db.system.users.find()
+db.system.users
+show collections
+use admin
+show dbs
+db.createUser( { user: "tom", pwd: "jerry", roles: [ { role: "userAdminAnyDatabase", db: "admin" }, { role: "readWriteAnyDatabase", db: "admin" }, { role: "dbAdminAnyDatabase", db: "admin" }, { role: "clusterAdmin", db: "admin" } ] ]
+use docker-db
+           ]
+              { role: "clusterAdmin", db: "admin" }
+              { role: "dbAdminAnyDatabase", db: "admin" },
+              { role: "readWriteAnyDatabase", db: "admin" },
+              { role: "userAdminAnyDatabase", db: "admin" },
+    roles: [
+    pwd: "jerry",
+    user: "tom",
+{
+show dbs         { role: "dbAdminAnyDatabase", db: "admin" },
+              { role: "readWriteAnyDatabase", db: "admin" },
+              { role: "userAdminAnyDatabase", db: "admin" },
+    roles: [
+    pwd: "jerry",
+    user: "tom",
+{
+show dbs, db: "admin" },
+    roles: [
+    pwd: "jerry",
+    user: "tom",
+{
+show dbs dbs, db: "admin" },
+    roles: [
+    pwd: "jerry",
+    user: "tom",
+{
+show dbs

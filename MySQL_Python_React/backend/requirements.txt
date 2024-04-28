@@ -1,0 +1,6 @@
+Flask==2.1.0
+SQLAlchemy==1.4.31
+marshmallow==3.13.0
+mysql-connector-python==8.0.28
+Werkzeug==2.0.2
+Flask-Cors==3.1.1

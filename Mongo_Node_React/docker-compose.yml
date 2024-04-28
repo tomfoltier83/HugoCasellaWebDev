@@ -1,0 +1,29 @@
+version: '3.8'
+services:
+  mongo:
+    image: mongo:6
+    volumes:
+      - ./data:/data/db
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=pass
+
+  node:
+    build: ./backend
+    ports:
+      - "5000:5000"
+    depends_on:
+      - mongo
+
+  react:
+    build: ./formulaire-react
+    ports:
+      - "3000:80"
+    depends_on:
+      - node
+
+volumes:
+  mongo-data:
+    driver: local

@@ -1,0 +1,16 @@
+.container {
+
+}
+
+.container h4, .container p {
+    text-align: center;
+    margin: 5px;
+}
+
+.info-success {
+    color: green;
+}
+
+.info-error {
+    color: red;
+}
